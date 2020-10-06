@@ -1,0 +1,46 @@
+body { }
+#nametag-container{
+    width: 753px;
+    height: 468px;
+    background-color: #c2fff0;
+    margin: 50 auto 0;
+    border: 30px #46ff6f solid;
+    box-sizing: border-box;
+    z-index: 4;
+}
+h1{
+    text-align: center ;
+    color: #4a46ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: initial;
+    margin: 0;
+    font-size: 80px;
+    position: relative;z-index: 4;top: 150;
+   
+  
+}
+.rectangle{text-align: center;}
+.rectangle span{
+    width: 693px;
+    height: 33px;
+    background-color: #46ff6f;
+    display: inline-block;
+    position: relative;z-index: 3;
+  
+}
+.rectangle span: :first-child{
+  
+   
+}
+.circle {text-align: center;}
+.circle span{
+    width: 407px;
+    height: 407px;
+    background-color: #ffe2e2;
+    display: inline-block;
+    border-radius: 100%;
+    position: absolute; left: 450; top: 80; z-index: 2;
+}
+.flow{
+    position: relative;z-index: 1; bottom: 0 ;top: -90 ;right: 10;
+}
