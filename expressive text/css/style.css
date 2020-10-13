@@ -1,0 +1,50 @@
+#verse1 p{
+    text-align: center;
+    height: 25vh;
+    margin: 0;
+    font-size: 3.5vw;
+    font-family: "Trajan";
+    padding-top: 5% ;
+}
+
+.etched-text3 {
+    text-shadow: 0 3px greenyellow;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: purple;
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7ae1ef+1,e89aed+50,e89aed+52,e8ea7e+100 */
+background: #7ae1ef; /* Old browsers */
+background: -moz-linear-gradient(left,  #7ae1ef 1%, #e89aed 50%, #e89aed 52%, #e8ea7e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #7ae1ef 1%,#e89aed 50%,#e89aed 52%,#e8ea7e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #7ae1ef 1%,#e89aed 50%,#e89aed 52%,#e8ea7e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ae1ef', endColorstr='#e8ea7e',GradientType=1 ); /* IE6-9 */
+
+;
+}
+
+.etched-text2 {
+    text-shadow: 0 3px rgb(123, 25, 252);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: yellow;
+    background-image: url(../image/roses.jpeg);
+  }
+  .etched-text1 {
+    text-shadow: 0 3px rgb(185,94,94);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+
+  }
+
+  body{
+      background-image: url(../image/bg.jpeg);
+  }
+
+  .image{
+      position: relative
+      ;
+      text-align: center;
+      margin-top: 3%;
+    
+  }
