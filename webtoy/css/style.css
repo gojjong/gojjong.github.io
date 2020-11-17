@@ -1,0 +1,43 @@
+body {
+  background-color: #46ff6f;
+}
+
+#draggable {
+  background-image: url('http://source.unsplash.com/random/150x150');
+  position: relative;
+  height: 150px;
+  width: 150px;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.target {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 50px;
+  border: none;
+  background-color: orange
+}
+
+.dragging {
+  border: 4px yellow solid;
+}
+
+.drag-over {
+  background-color: #46ff6f;
+  border-style: dashed;
+}
+
+.invisible {
+  display: none;
+}
+
+p{
+  text-align: center;
+  font-size: 55px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #4a46ff;
+}
+
