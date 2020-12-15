@@ -11,3 +11,4 @@ function dragstart_handler(ev) {
   var data = ev.dataTransfer.getData("application/my-app");
   ev.target.appendChild(document.getElementById(data));
  }
+
